@@ -1,4 +1,5 @@
 #!/bin/sh
+echo Hello!
 echo Set Git user.name?
 read git_user_name
 # echo Set Git user.email?
