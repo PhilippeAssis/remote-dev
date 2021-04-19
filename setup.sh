@@ -2,8 +2,8 @@
 echo Hello!
 echo Set Git user.name?
 read git_user_name
-# echo Set Git user.email?
-# read git_user_email
+echo Set Git user.email?
+read git_user_email
 
 git config --global core.editor "code";
 git config --global user.name "$git_user_name";
