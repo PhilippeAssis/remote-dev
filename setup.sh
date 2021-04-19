@@ -5,8 +5,8 @@ echo Set Git user.email?
 read git_user_email
 
 git config --global core.editor code
-git config --global user.name code
-git config --global user.email code
+git config --global user.name "$git_user_name"
+git config --global user.email "$git_user_email"
 
 
 sudo apt upgrade && sudo apt update -y
