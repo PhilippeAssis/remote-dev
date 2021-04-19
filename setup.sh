@@ -1,3 +1,2 @@
-#!/bin/bash
-sudo apt-get update && \
-sudo apt-get upgrade
+#!/bin/sh
+sudo apt upgrade && sudo apt update
