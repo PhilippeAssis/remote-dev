@@ -1,1 +1,1 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/PhilippeAssis/remote-dev/master/setup.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/PhilippeAssis/remote-dev/master/setup.sh)";
